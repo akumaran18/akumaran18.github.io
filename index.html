@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="Premier family and wedding photography firm in Central Illinois specializing in personalized photo and video products.">
+        <meta name="keywords" content="wedding, bridal, photo, photography, videography, memories, photoshoot">
+        
+        <title>Twin City Photography</title>
+        
+        <link rel="stylesheet" href="styles/site.css">
+        <link rel="shortcut icon" href="img/favicon.ico.png">
+        <link href="jquery.bxslider.css" rel="stylesheet">
+        
+        <script src="https://code.jquery.com/jquery-1.8.2.min.js"></script>
+        <script src="js/jquery.bxSlider.min.js"></script>
+        
+        <script>
+            $(document).ready(function(){
+                $("#boxslider").bxSlider({
+                    auto: true,
+                    autoControls: true,
+                    captions: true,
+                    minSlides: 1,
+                    maxSlides: 1,
+                    slideWidth: 1300,
+                    slideMargin: 10
+                });
+            });
+        </script>
+    </head>
+    
+    <body>
+        <header id="header">
+            <div id="logo"><a href="index.html"><img src="img/logo.png" alt="Twin City Photography Logo"></a></div>
+        </header>
+        <nav id="nav_menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+                <li><a href="weddings.html">Weddings</a></li>
+                <li><a href="portraits.html">Portraits</a></li>
+            </ul>
+        </nav>
+        <section>
+            <ul id="boxslider">
+                <li><a href="weddings.html"><img src="boxSliderImg/img1.png" width="1300" height="650"></a></li>
+                <li><a href="portraits.html"><img src="boxSliderImg/img2.png" width="1300px" height="650"></a></li>
+                <li><img src="boxSliderImg/img3.png" width="1300" height="650"></li>
+            </ul>
+        </section>
+        <footer>
+            <nav id="nav_menu_footer">
+            <ul>
+                <li><a href="https://www.facebook.com/"><img src="socialmediaicons/facebook.png" width="40" height="40"></a></li>
+                <li><a href="https://www.instagram.com/"><img src="socialmediaicons/instagram.png" width="40" height="40"></a></li>
+                <li><a href="https://twitter.com/"><img src="socialmediaicons/twitter.png" width="40" height="40"></a></li>
+            </ul>
+        </nav>
+        </footer>
+    </body>
+</html>
