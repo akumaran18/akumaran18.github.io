@@ -1,0 +1,12 @@
+/* DEVELOPER */
+	Amrutha Kumaran
+	Student of Interactive Design at Parkland College
+	Community Technology Educator at the Champaign-Urbana Community Fabrication Laboratory *whew* that was a mouthfull!
+	Contact: akumaran1@stu.parkland.edu
+	From: Illinois
+	
+/* SITE */
+	Last update: December 12th, 2018
+	Language: English
+	Doctype: HTML5
+	IDE: Brackets, Adobe Illustrator, Adobe Photoshop, Notepad++ and with a little help from GitHub

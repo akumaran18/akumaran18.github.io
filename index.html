@@ -1,6 +1,16 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-130687287-1"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'UA-130687287-1');
+        </script>
+        
         <meta charset="utf-8">
         <meta name="description" content="Premier donut shop, bakery and coffeehouse located in Central Illinois">
         <meta name="keywords" content="bakery, donut, donut, pastries, coffee, tea, snacks">
@@ -16,14 +26,15 @@
         
         <script>
             $(document).ready(function(){
-                $("#boxslider").bxSlider({
+                $("#homeboxslider").bxSlider({
                     auto: true,
+                    autoHover: true,
                     pager: true,
-                    autoControls: true,
+                    autoControls: false,
                     captions: true,
                     minSlides: 1,
                     maxSlides: 1,
-                    slideWidth: 1300,
+                    slideWidth: 1297,
                     slideMargin: 10
                 });
             });
@@ -32,7 +43,7 @@
     
     <body>
         <header>
-            <section><div id="logo"><a href="index.html"><img src="img/logo.png" alt="Donut Delights Logo" width="180" height="122"></a></div>
+            <section>
             <div id="title">Donut Delights</div></section>
         </header>
         <nav id="nav_menu">
@@ -44,7 +55,7 @@
             </ul>
         </nav>
         <section>
-            <ul id="boxslider">
+            <ul id="homeboxslider">
                 <li><img src="boxSliderImg/img1.png" width="1297" height="823"></li>
                 <li><img src="boxSliderImg/img2.png" width="1297" height="823"></li>
                 <li><img src="boxSliderImg/img3.png" width="1297" height="823"></li>
@@ -58,6 +69,7 @@
                 <li><a href="https://twitter.com/"><img src="socialmediaicons/twitter.png" width="40" height="40"></a></li>
             </ul>
         </nav>
+            <div id="logo"><a href="index.html"><img src="img/logo.png" alt="Donut Delights Logo" width="180" height="122"></a></div>
         </footer>
     </body>
 </html>

@@ -1,11 +1,21 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-130687287-1"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'UA-130687287-1');
+        </script>
+        
         <meta charset="utf-8">
         <meta name="description" content="Premier donut shop, bakery and coffeehouse located in Central Illinois">
         <meta name="keywords" content="bakery, donut, donut, pastries, coffee, tea, snacks">
         
-        <title>Donut Delights</title>
+        <title>Menu</title>
         
         <link rel="stylesheet" href="styles/site.css">
         <link rel="shortcut icon" href="img/favicon.ico.png">
@@ -19,48 +29,78 @@
             $(document).ready(function(){
                 $("#boxslider").bxSlider({
                     auto: true,
+                    autoHover: true,
                     pager: true,
-                    autoControls: true,
+                    autoControls: false,
                     captions: true,
                     minSlides: 1,
                     maxSlides: 3,
-                    slideWidth: 230,
+                    slideWidth: 282,
                     slideMargin: 10
                 });
             });
              $(document).ready(function(){
                 $("#boxslider2").bxSlider({
                     auto: true,
+                    autoHover: true,
                     pager: true,
-                    autoControls: true,
+                    autoControls: false,
                     captions: true,
                     minSlides: 1,
                     maxSlides: 3,
-                    slideWidth: 230,
+                    slideWidth: 282,
                     slideMargin: 10
                 });
             });
              $(document).ready(function(){
                 $("#boxslider3").bxSlider({
                     auto: true,
+                    autoHover: true,
                     pager: true,
-                    autoControls: true,
+                    autoControls: false,
                     captions: true,
                     minSlides: 1,
                     maxSlides: 3,
-                    slideWidth: 230,
+                    slideWidth: 280.7,
                     slideMargin: 10
                 });
             });
              $(document).ready(function(){
                 $("#boxslider4").bxSlider({
-                    auto: true,
+                    auto: false,
+                    autoHover: true,
                     pager: true,
-                    autoControls: true,
+                    autoControls: false,
                     captions: true,
                     minSlides: 1,
                     maxSlides: 3,
-                    slideWidth: 230,
+                    slideWidth: 300,
+                    slideMargin: 10
+                });
+            });
+              $(document).ready(function(){
+                $("#donutslider").bxSlider({
+                    auto: true,
+                    autoHover: true,
+                    pager: false,
+                    autoControls: false,
+                    captions: true,
+                    minSlides: 1,
+                    maxSlides: 1,
+                    slideWidth: 206,
+                    slideMargin: 10
+                });
+            });
+             $(document).ready(function(){
+                $("#macaronslider").bxSlider({
+                    auto: true,
+                    autoHover: true,
+                    pager: false,
+                    autoControls: false,
+                    captions: true,
+                    minSlides: 1,
+                    maxSlides: 1,
+                    slideWidth: 206,
                     slideMargin: 10
                 });
             });
@@ -69,7 +109,7 @@
     
     <body>
         <header>
-            <section><div id="logo"><a href="index.html"><img src="img/logo.png" alt="Donut Delights Logo" width="180" height="122"></a></div>
+            <section>
             <div id="title">Donut Delights</div></section>
         </header>
         <nav id="nav_menu">
@@ -81,7 +121,7 @@
             </ul>
         </nav>
         <main id="menu">
-            <br><br><h1>Menu</h1>
+            <br><h1>Menu</h1>
             <div id="menutxt">
             <p>Our kitchen is aways coming up with delicious new offerings so check back for new and exciting additions to our menu.</p>
             
@@ -89,44 +129,116 @@
             </div>
             <section id="drinks">
             <ul id="boxslider">
-                <li><img src="drinks/img1.jpg" width="228" height="149"></li>
-                <li id="tea"><img src="drinks/img2.jpg" width="150" height="152"></li>
-                <li id="chocolate"><img src="drinks/img3.png" width="180" height="161"></li>
-                <li><img src="drinks/img4.png" width="125" height="178"></li>
+                <li id="coffee"><img src="drinks/img_1.png" width="282" height="185">Coffee<br>(assortment)</li>
+                <li id="espresso"><img src="drinks/img_6.png" width="281" height="185"><p>Espresso</p></li>
+                <li id="tea"><img src="drinks/img_2.png" width="282" height="185">Tea<br>(assortment)</li>
+                <li id="chocolate"><img src="drinks/img_3.png" width="281" height="185"><p>Hot<br>Chocolate</p></li>
+                <li id="chai"><img src="drinks/img_4.png" width="282" height="185"><p>Chai Latte</p></li>
+                <li id="cider"><img src="drinks/img_5.png" width="282" height="185"><p>Cider</p></li>
             </ul>
             </section>
-            <br><br><h2>Sweet</h2>
-            </div>
-            <section id="drinks">
+            <br><br><h2>Sweets</h2>
+            <section id="sweet">
             <ul id="boxslider2">
-                <li><img src="drinks/img1.jpg" width="228" height="149"></li>
-                <li id="tea"><img src="drinks/img2.jpg" width="150" height="152"></li>
-                <li id="chocolate"><img src="drinks/img3.png" width="180" height="161"></li>
-                <li><img src="drinks/img4.png" width="125" height="178"></li>
+                <li id="macaroon"><img src="sweet/img_1.png" width="282" height="185">Macaroons<br>(assortment)</li>
+                <li id="donut"><img src="sweet/img_2.png" width="281" height="185">Donuts<br>(assortment)</li>
+                <li id="jellydonuts"><img src="sweet/img_3.png" width="282" height="185">Jelly Donuts<br>(assortment)</li>
+                <li id="muffins"><img src="sweet/img_4.png" width="281" height="185">Muffins<br>(assortment)</li>
+                <li id="creamtart"><img src="sweet/img_5.png" width="282" height="185">Cream Tarts<br>(assortment)</li>
+                <li id="fruittart"><img src="sweet/img_6.png" width="282" height="185">Fruit Tarts</li>
             </ul>
+            </section><br>
+            <section id="flavorhead">
+                <div>
+                    <h3>Donuts</h3><br>
+                    <ul id="donutslider">
+                        <li><img src="donuts/img-01.png" width="206" height="135">Boston Cream Pie</li>
+                        <li><img src="donuts/img-02.png" width="206" height="135">Strawberry frosted</li>
+                        <li><img src="donuts/img-03.png" width="206" height="135">French cruller</li>
+                    </ul>
+                    <p>Special of the Week: Buy 2, get 1 free</p><br>
+                </div>
+                <div>
+                    <h3>Macarons</h3><br>
+                    <ul id="macaronslider">
+                        <li><img src="macarons/img-01.png" width="206" height="135">Vanilla</li>
+                        <li><img src="macarons/img-02.png" width="206" height="135">Chocolate</li>
+                        <li><img src="macarons/img-03.png" width="206" height="135">Rasberry</li>
+                        <li><img src="macarons/img-05.png" width="206" height="135">Lemon</li>
+                        <li><img src="macarons/img-06.png" width="206" height="135">Salted Caramel</li>
+                        <li><img src="macarons/img-07.png" width="206" height="135">Cookies and Cream</li>
+                        <li><img src="macarons/img-08.png" width="206" height="135">Pistachio</li>
+                        <li><img src="macarons/img-09.png" width="206" height="135">Green Tea</li>
+                        <li><img src="macarons/img-10.png" width="206" height="135">Lavender</li>
+                        <li><img src="macarons/img-11.png" width="206" height="135">Coffee</li>
+                        <li><img src="macarons/img-12.png" width="206" height="135">Almond</li>
+                        <li><img src="macarons/img-13.png" width="206" height="135">Mint</li>
+                    </ul>   
+                </div>
             </section>
-        <br><br><h2>Savory</h2>
-            </div>
-            <section id="drinks">
+            <section id="flavors">
+                <div>
+                <ul>
+                    <li>Chocolate frosted</li> 
+                    <li>Cinnamon twist</li>
+                    <li>Hand-twisted cake cruller</li>
+                    <li>French cruller</li>
+                    <li>Strawberry frosted</li>
+                    <li>Old-fashioned</li>
+                </ul>
+                </div>
+                <div>
+                    <ul>
+                        <li>Jelly-filled</li>
+                        <li>Blueberry</li>
+                        <li>Glazed</li>
+                        <li>Cream-filled</li>
+                        <li>Boston Cream Pie</li>
+                        <li>Apple crumb</li>
+                    </ul>
+                </div>
+                <div>
+                    <ul>
+                        <li>Vanilla</li>
+                        <li>Chocolate</li>
+                        <li>Strawberry</li>
+                        <li>Rasberry</li>
+                        <li>Lemon</li>
+                        <li>Salted Caramel</li>
+                        <li>Cookies and Cream</li>
+                    </ul>
+                </div>
+                <div>
+                 <ul>
+                    <li>Pistachio</li>
+                    <li>Green Tea</li>
+                    <li>Lavender</li>
+                    <li>Coffee</li>
+                    <li>Almond</li>
+                    <li>Mint</li>
+                 </ul>
+                </div>
+            </section>
+        <br><br><h2>Savories</h2>
+            <section id="savory">
             <ul id="boxslider3">
-                <li><img src="drinks/img1.jpg" width="228" height="149"></li>
-                <li id="tea"><img src="drinks/img2.jpg" width="150" height="152"></li>
-                <li id="chocolate"><img src="drinks/img3.png" width="180" height="161"></li>
-                <li><img src="drinks/img4.png" width="125" height="178"></li>
+                <li><img src="savory/img_1.png" width="280.7" height="183.7">Avocado Toast<br>(custom)</li>
+                <li><img src="savory/img_2.png" width="280.7" height="183.7">Breakfast Sandwich<br>(custom)</li>
+                <li><img src="savory/img_3.png" width="280.7" height="183.7">Croissants<br>(assortment)</li>
+                <li><img src="savory/img_4.png" width="280.7" height="183.7">Quiche</li>
+                <li><img src="savory/img_5.png" width="280.7" height="183.7">Bagels<br>(assortment)</li>
             </ul>
             </section>
         <br><br><h2>Seasonal</h2>
-            </div>
-            <section id="drinks">
+            <section id="seasonal">
             <ul id="boxslider4">
-                <li><img src="drinks/img1.jpg" width="228" height="149"></li>
-                <li id="tea"><img src="drinks/img2.jpg" width="150" height="152"></li>
-                <li id="chocolate"><img src="drinks/img3.png" width="180" height="161"></li>
-                <li><img src="drinks/img4.png" width="125" height="178"></li>
+                <li><img src="seasonal/img_1.png" width="282" height="185">Apple Pie</li>
+                <li id="tea"><img src="seasonal/img_2.png" width="282" height="185">Pumpkin Pie</li>
             </ul>
-            </section>
+            </section><br><br>
         </main>
         <footer>
+            <div id="stuff">
             <nav id="nav_menu_footer">
             <ul>
                 <li><a href="https://www.facebook.com/"><img src="socialmediaicons/facebook.png" width="40" height="40"></a></li>
@@ -134,6 +246,8 @@
                 <li><a href="https://twitter.com/"><img src="socialmediaicons/twitter.png" width="40" height="40"></a></li>
             </ul>
         </nav>
+            <div id="logo"><a href="index.html"><img src="img/logo.png" alt="Donut Delights Logo" width="180" height="122"></a></div>
+            </div>
         </footer>
     </body>
 </html>
