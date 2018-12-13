@@ -21,25 +21,10 @@
         <link rel="shortcut icon" href="img/favicon.ico.png">
         <link href="jquery.bxslider.css" rel="stylesheet">
         
-        <script src="https://code.jquery.com/jquery-1.8.2.min.js"></script>
-        <script src="js/jquery.bxSlider.min.js"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+        <script src="http://malsup.github.com/jquery.cycle2.js"></script
         
-        <script>
-            $(document).ready(function(){
-                $("#homeboxslider").bxSlider({
-                    auto: true,
-                    autoHover: true,
-                    pager: true,
-                    autoControls: false,
-                    captions: true,
-                    minSlides: 1,
-                    maxSlides: 1,
-                    slideWidth: 1297,
-                    slideMargin: 10
-                });
-            });
-        </script>
-    </head>
+      </head>
     
     <body>
         <header>
@@ -55,11 +40,14 @@
             </ul>
         </nav>
         <section>
-            <ul id="homeboxslider">
-                <li><img src="boxSliderImg/img1.png" width="1297" height="823"></li>
-                <li><img src="boxSliderImg/img2.png" width="1297" height="823"></li>
-                <li><img src="boxSliderImg/img3.png" width="1297" height="823"></li>
-            </ul>
+            <div id="homeslider" class="cycle-slideshow"
+                data-cycle-fx="scrollHorz"
+                data-cycle-pause-on-hover="true"
+                data-cycle-speed="700">
+                    <img src="boxSliderImg/img1.png" width="1297" height="823">
+                    <img src="boxSliderImg/img2.png" width="1297" height="823">
+                    <img src="boxSliderImg/img3.png" width="1297" height="823">
+            </div>
         </section>
         <footer>
             <nav id="nav_menu_footer">
@@ -68,8 +56,11 @@
                 <li><a href="https://www.instagram.com/"><img src="socialmediaicons/instagram.png" width="40" height="40"></a></li>
                 <li><a href="https://twitter.com/"><img src="socialmediaicons/twitter.png" width="40" height="40"></a></li>
             </ul>
-        </nav>
-            <div id="logo"><a href="index.html"><img src="img/logo.png" alt="Donut Delights Logo" width="180" height="122"></a></div>
+        </nav><br><br>
+            <section id="image">
+                <div id="veterans"><img src="vetsAdSmall.gif" width="225" height="188">
+                </div>
+            </section>
         </footer>
     </body>
 </html>

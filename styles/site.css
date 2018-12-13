@@ -29,6 +29,9 @@ header {
     color: white;
     text-align: center;
 }
+#title:hover {
+    background-image: url(../img/logo.png)
+}
 #nav_menu ul {
     display: flex;
     flex-basis: 100%;
@@ -119,7 +122,7 @@ h2 {
 }
 #flavorhead p {
     font-size: 18px;
-    margin: 10px 0px 10px 0px;
+    margin: 20px 0px 20px 0px;
 }
 #flavors {
     margin: 0px 50px 0px 50px;
@@ -135,6 +138,7 @@ h2 {
 #donutslider{
     text-align: center;
     line-height: 130%;
+    margin: -8px 0px 0px 0px;
 }
 #macaronslider{
     text-align: center;
@@ -158,13 +162,21 @@ h2 {
 #seasonal {
     align-content: center;
 }
-#seasonal li {
+#seasonal div {
+    align-content: center;
     text-align: center;
+    line-height: 130%;
+}
+#seasonal div img{
+    align-content: center;
+    text-align: center;
+    width: auto;
+    height: auto;
 }
 #about{
     background-color: white;
     width: 80%;
-    height: 950px;
+    height: auto;
     margin: 0px 0px 0px 10%;
     font-family: "Renner*",sans-serif;
     font-size: 20px;
@@ -176,6 +188,17 @@ h2 {
 #abouttxt grid {
     margin: 0px 50px 0px 50px;
     align-content: center;
+}
+iframe {
+    display: block;
+    margin: 0 auto;
+}
+#video{
+    margin: 0px 50px 0px 50px;
+    display: grid;
+    grid-template: auto / auto auto;
+    grid-gap: 100px 100px;
+    justify-content: space-evenly;
 }
 #business {
     margin: 0px 0px 0px -70px;
@@ -270,6 +293,7 @@ footer {
     clear: both;
     padding-top: 2em;
     align-self: center;
+    align-content: center;
 }
 #nav_menu_footer ul {
     display: flex;
@@ -286,9 +310,15 @@ footer {
     align-self: center;
     text-decoration: none;
 }
+#image {
+    align-content: center;
+    margin: 0px 0px 0px 41.7%;
+}
+#veterans {
+    max-width: 100%;
+    height: auto;
+}
 #logo {
     max-width: 100%;
     height: auto;
-    margin: 3em 0em 3em 43.5%;
-    align-self: center;
 }
