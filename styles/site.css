@@ -56,12 +56,13 @@ a:visited {
 a:hover {
     color: yellow;
 }
-#homeboxslider {
+#homeslider {
     align-self: center;
 }
-#homeboxslider li {
+#homeslider img {
     align-self: center;
     width: 100%;
+    height: auto;
 }
 h1 {
     text-align: center;
@@ -83,19 +84,26 @@ h2 {
 #menutxt {
     margin: 0px 50px 0px 50px;
 }
-
 #drinks {
     align-content: center;
 }
-#drinks li {
+#drinks div {
+    align-content: center;
     text-align: center;
     line-height: 130%;
+}
+#drinks div img{
+    align-content: center;
+    text-align: center;
+    width: auto;
+    height: auto;
 }
 #sweet {
     align-content: center;
     font-family: "Renner*",sans-serif;
 }
-#sweet li {
+#sweet div {
+    align-content: center;
     text-align: center;
     line-height: 130%;
 }
@@ -136,9 +144,16 @@ h2 {
 #savory {
     align-content: center;
 }
-#savory li {
+#savory div {
+    align-content: center;
     text-align: center;
     line-height: 130%;
+}
+#savory div img{
+    align-content: center;
+    text-align: center;
+    width: auto;
+    height: auto;
 }
 #seasonal {
     align-content: center;
