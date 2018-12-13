@@ -19,8 +19,11 @@ body {
 header {
     width: 100%;
     height: 150px;
-}
-        
+    display: grid;
+    grid-template: auto / auto;
+    grid-gap: 0px 0px;
+    align-content: center;
+}   
 #title {
     font-family: "Renner*", sans-serif;
     font-size: 500%;
@@ -29,8 +32,16 @@ header {
     color: white;
     text-align: center;
 }
-#title:hover {
-    background-image: url(../img/logo.png)
+.inner {
+    align-content: center;
+}
+.inner img {
+    display: none
+}
+.inner:hover img {
+    display: block;
+    margin: 0px 0px 20% 41.6%;
+    padding: 2em 0em 0em 0em;
 }
 #nav_menu ul {
     display: flex;
@@ -310,9 +321,33 @@ footer {
     align-self: center;
     text-decoration: none;
 }
-#image {
+#homefooter {
     align-content: center;
-    margin: 0px 0px 0px 41.7%;
+    display: grid;
+    grid-template: auto/ auto;
+    grid-gap: 10px 10px;
+    justify-content: space-evenly;
+}
+#menufooter {
+    align-content: center;
+    display: grid;
+    grid-template: auto/ auto;
+    grid-gap: 10px 10px;
+    justify-content: space-evenly;
+}
+#aboutfooter {
+    align-content: center;
+    display: grid;
+    grid-template: auto/ auto;
+    grid-gap: 10px 10px;
+    justify-content: space-evenly;
+}
+#contactfooter {
+    align-content: center;
+    display: grid;
+    grid-template: auto/ auto;
+    grid-gap: 10px 10px;
+    justify-content: space-evenly;
 }
 #veterans {
     max-width: 100%;
