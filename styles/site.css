@@ -40,15 +40,17 @@ header {
 }
 .inner:hover img {
     display: block;
-    margin: 0px 0px 20% 41.6%;
-    padding: 2em 0em 0em 0em;
+    margin: 0px 0px 10% 41.6%;
+    padding: 10% 0em 0em 0em;
 }
 #nav_menu ul {
     display: flex;
     flex-basis: 100%;
+    justify-content: space-between;
     list-style-type: none;
     position: relative;
-    margin: -40px 10% -20px 12.5%;
+    margin: 0;
+    padding: 0;
 }
 #nav_menu ul li {
     flex-basis: 20%;
