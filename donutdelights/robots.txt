@@ -1,0 +1,11 @@
+User-agent: *
+Disallow: /contact.html
+Disallow: /boxSliderImg/
+Disallow: /drinks/
+Disallow: /img/
+Disallow: /js/
+Disallow: /renner2/
+Disallow: /savory/
+Disallow: /seasonal/
+Disallow: /socialmediaicons/
+Disallow: /sweet/
