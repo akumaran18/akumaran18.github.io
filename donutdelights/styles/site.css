@@ -1,0 +1,390 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+html {
+	background-color: white;
+}
+@font-face {
+    font-family: Renner*;
+    src: url("../renner2/Renner400Book.ttf");
+}
+body {
+	font-family: "Renner*", sans-serif;
+	margin: 0 auto;
+    padding: 20px;
+    list-style-type: none;
+    background-color: #d9b3ff;
+}
+header {
+    width: 100%;
+    height: 150px;
+    display: grid;
+    grid-template: auto / auto;
+    grid-gap: 0px 0px;
+    align-content: center;
+}   
+#title {
+    font-family: "Renner*", sans-serif;
+    font-size: 500%;
+    max-width: 100%;
+    height: auto;
+    color: white;
+    text-align: center;
+}
+.inner {
+    align-content: center;
+}
+.inner img {
+    display: none;
+}
+.inner:hover img {
+    display: block;
+    margin: 10% 0px 16% 41.6%;
+    padding:  0em 0em 0em;
+}
+#nav_menu {
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template: auto / auto;
+    grid-gap: 0px 0px;
+    align-content: center;
+    text-align: center;
+}
+#nav_menu div{
+    align-content: center;
+    text-align: center;
+    margin: 0px 0px 0px 13%;
+}
+#nav_menu div ul {
+    display: flex;
+    flex-basis: 100%;
+    list-style-type: none;
+    position: relative;
+}
+#nav_menu ul li {
+    flex-basis: 20%;
+}
+#nav_menu ul li a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    padding: 1em 1.5em 1em 1.5em;
+    font-size: 270%;
+    font-family: "Renner*", sans-serif;
+}
+a:link {
+    color: white;
+}
+a:visited {
+    color: white;
+}
+a:hover {
+    color: yellow;
+}
+#homeslider {
+    align-self: center;
+}
+#homeslider img {
+    align-self: center;
+    width: 100%;
+    height: auto;
+}
+h1 {
+    text-align: center;
+    font-family: "Renner*", sans-serif;
+    font-size:50px;
+}
+h2 {
+    text-align: center;
+    font-family: "Renner*", sans-serif;
+}
+#menu {
+    background-color: white;
+    width: 80%;
+    margin: 0px 0px 0px 10%;
+    font-family: "Renner*";
+    font-size: 20px;
+    align-content: center;
+}
+#menutxt {
+    margin: 0px 50px 0px 50px;
+}
+#drinks {
+    align-content: center;
+}
+#drinks div {
+    align-content: center;
+    text-align: center;
+    line-height: 130%;
+}
+#drinks div img{
+    align-content: center;
+    text-align: center;
+    width: auto;
+    height: auto;
+}
+#carouselExampleIndicators {
+    align-content: center;
+    text-align: center;
+    width: 40%;
+    height: 40%;
+}
+#carouselExampleIndicators div img{
+    align-content: center;
+}
+#carouselExampleIndicators h5{
+    color: black;
+}
+#carouselExampleIndicators ol li{
+    color: black;
+}
+.black {
+    color: black;
+}
+#sweet {
+    align-content: center;
+    font-family: "Renner*",sans-serif;
+}
+#sweet div {
+    align-content: center;
+    text-align: center;
+    line-height: 130%;
+}
+#flavorhead {
+    margin: 0px 50px 0px 50px;
+    display: grid;
+    grid-template: auto / auto auto;
+    grid-gap: 10px 10px;
+    justify-content: space-evenly;
+}
+#flavorhead div {
+    text-align: center;
+}
+#flavorhead p {
+    font-size: 18px;
+    margin: 20px 0px 20px 0px;
+}
+#flavors {
+    margin: 0px 50px 0px 50px;
+    display: grid;
+    grid-template: auto / auto auto auto auto;
+    grid-gap: 10px 100px;
+    justify-content: space-evenly;
+}
+#flavors p {
+    text-align: center;
+    font-size: 18px;
+}
+#donutslider{
+    text-align: center;
+    line-height: 130%;
+    margin: -8px 0px 0px 0px;
+}
+#macaronslider{
+    text-align: center;
+    line-height: 130%;
+    margin: 0px 0px 30px 0px;
+}
+#savory {
+    align-content: center;
+}
+#savory div {
+    align-content: center;
+    text-align: center;
+    line-height: 130%;
+}
+#savory div img{
+    align-content: center;
+    text-align: center;
+    width: auto;
+    height: auto;
+}
+#seasonal {
+    align-content: center;
+}
+#seasonal div {
+    align-content: center;
+    text-align: center;
+    line-height: 130%;
+}
+#seasonal div img{
+    align-content: center;
+    text-align: center;
+    width: auto;
+    height: auto;
+}
+#about{
+    background-color: white;
+    width: 80%;
+    height: auto;
+    margin: 0px 0px 0px 10%;
+    font-family: "Renner*",sans-serif;
+    font-size: 20px;
+    align-content: center; 
+}
+#abouttxt {
+    margin: 0px 50px 0px 50px;
+}
+#abouttxt grid {
+    margin: 0px 50px 0px 50px;
+    align-content: center;
+}
+iframe {
+    display: block;
+    margin: 0 auto;
+}
+#video{
+    margin: 0px 50px 0px 50px;
+    display: grid;
+    grid-template: auto / auto auto;
+    grid-gap: 100px 100px;
+    justify-content: space-evenly;
+}
+#business {
+    margin: 0px 0px 0px -70px;
+    display: grid;
+    grid-template: auto / 160px 160px 160px;
+    grid-gap: 100px 100px;
+    justify-content: space-evenly;
+}
+#business div {
+    align-content: center;
+}
+#business div img{
+    width: 150%;
+    height: auto;
+}
+#about img {
+    margin: 0px 0px 0px -5.5%;
+}
+#contact {
+    background-color: white;
+    width: 80%;
+    height: 850px;
+    margin: 0px 0px 0px 10%;
+    font-family: "Renner*",sans-serif;
+    font-size: 20px;
+    align-content: center; 
+}
+#contact a:link {
+    color: #b366ff;
+}
+#contact a:hover {
+    color: yellow;
+}
+#contactbody {
+    margin: 0px 50px 0px 50px;
+    display: grid;
+    grid-template: 150px 150px/ auto auto;
+    grid-gap: 100px 50px;
+    justify-content: space-evenly;
+}
+#hours {
+    width: auto;
+    height: auto;
+    margin: 0px 0px 0px 5%;
+}
+fieldset {
+    border-style: none;
+}
+form label {
+    width: 90%;
+    height: 90%;
+    font-family: "Renner*",sans-serif;
+    font-size: 16px;
+    margin: 0px 0px 0px 5%;
+}
+form textarea {
+    width: 90%;
+    height: 90%;
+    font-family: "Renner*",sans-serif;
+    font-size: 16px;
+    margin: 0px 0px 0px 5%;
+}
+form input {
+    width: 90%;
+    height: 90%;
+    font-family: "Renner*",sans-serif;
+    font-size: 16px;
+    margin: 0px 0px 0px 5%;
+}
+form .submit{
+    width: 25%;
+    height: 25%;
+    margin: 0px 0px 0px 37.5%;
+    font-family: "Renner*",sans-serif;
+    font-size: 20px;
+    background-color: #cc99ff;
+    border: none;
+    color: white;
+}
+#jobs {
+    margin: 150px 0px 0px 0px;
+}
+#formpage {
+    background-color: white;
+    width: 80%;
+    margin: 0px 0px 0px 10%;
+    font-family: "Renner*";
+    font-size: 20px;
+    align-content: center;
+}
+footer {
+    clear: both;
+    padding-top: 2em;
+    align-self: center;
+    align-content: center;
+}
+#nav_menu_footer ul {
+    display: flex;
+    flex-basis: 100%;
+    list-style-type: none;
+    position: relative;
+    margin: 0px 0px 0px 43%;
+}
+#nav_menu_footer ul li {
+    flex-basis: 10%;
+}
+#nav_menu_footer ul li a {
+    display: block;
+    align-self: center;
+    text-decoration: none;
+}
+#homefooter {
+    align-content: center;
+    display: grid;
+    grid-template: auto/ auto;
+    grid-gap: 10px 10px;
+    justify-content: space-evenly;
+}
+#menufooter {
+    align-content: center;
+    display: grid;
+    grid-template: auto/ auto;
+    grid-gap: 10px 10px;
+    justify-content: space-evenly;
+}
+#aboutfooter {
+    align-content: center;
+    display: grid;
+    grid-template: auto/ auto;
+    grid-gap: 10px 10px;
+    justify-content: space-evenly;
+}
+#contactfooter {
+    align-content: center;
+    display: grid;
+    grid-template: auto/ auto;
+    grid-gap: 10px 10px;
+    justify-content: space-evenly;
+}
+#veterans {
+    max-width: 100%;
+    height: auto;
+}
+#logo {
+    max-width: 100%;
+    height: auto;
+}
