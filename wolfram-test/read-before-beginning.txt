@@ -1,0 +1,8 @@
+You will have 24 hours to complete this test. Once you are finished, put your HTML, CSS, and image files in a folder called [your name]-test (e.g. john-doe-test) and email it back to recruiting. You will need access to Photoshop or similar software. If you don’t have access to Photoshop, download a free software call GIMP: http://www.gimp.org/. Also, Photoshop has trial downloads as well. 
+
+Follow these steps to create a one page website: 
+
+1. All text will be Source Sans Pro. Use the PSD file to follow font sizes and colors. 
+2. Make the webpage responsive for mobile users using media queries. For this portion, there aren't constraints. Please adjust the page for best viewing for users.  
+
+The purpose is to see how you can create a webpage using a mockup. 
