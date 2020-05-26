@@ -1,0 +1,66 @@
+<!DOCTYPE html><!--Amrutha Final Project Self-care app-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Carrot: the Self-Care App</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="main.js"></script>   	
+</head>
+
+<body>
+    <main>
+	   <p id="carrot">Carrot  <span id="subtitle">Self-Care</span></p>
+	    <br>
+	    <h2 id="todaysdate">*</h2>
+    	<p id="nogoals"><br>You don't have any self-care goals yet!
+    	<br>Add your first goal!
+    	</p>
+    	<br>
+		<form action="index.html" id="formgoals">
+		  <label for="start"><h2>Choose a date:</h2></label>
+		  <input type="date" id="goaldate" name="goal-date" value="">
+		  <br>
+		  <br>
+		  <h2>Choose your goal(s):</h2>
+		  	
+		  <input list="goals" name="goal" id="goal" value="What's your goal?">
+		  <datalist id="goals"><!--List of preloaded options-->
+		    <option>Get some exercise</option>
+		    <option>Cook a healthy meal</option>
+		    <option>Do laundry</option>
+		    <option>Read a book</option>
+		    <option>Get to bed on time</option>
+		    <option>Sleep at least 7 hours</option>
+		    <option>Talk to a friend</option>
+	    	<option>Drink plenty of water</option>
+    		<option>Meditation or yoga</option>
+		  </datalist>
+		  <button id="addgoal" class="button"><img src="img/plus-1270001_1280.png" width="17px" height="17px">   Add</button>
+		  <button id="deletegoal" class="button"><img src="img/minus-1270000_1280.png" width="17px" height="17px">   Delete</button>
+		  	<br>
+		  	<br>
+		  <h2 id="checklistTitle">Checklist</h2><div id="checklist"><!--Empty div to put the added goals into-->
+			<br>
+			
+			<!--General checklist item example <label><input type="checkbox" value="football" name="sport">Football</label>-->
+			
+			<!--Example of what a new goal in the checklist looks like:
+				<div style="display: block;">
+					<input type="checkbox" id="example" value="example">
+					<label>Example goal</label>
+					<input type="button" class="delete" value="X">
+				</div>--> 	
+			<input type="button" value="Log today's goals!" id="log" class="button log">
+			<button id="savegoal" class="button">Save to options</button>
+		  </div>
+		</form>
+		<br>    
+		<h2><img id="whiteplus" src="img/whiteplus.png" width="35px" height="35px">User History</h2><br>
+		<section id="history">
+		</section>
+		<br>
+		<button id="delhistory" class="button">Delete history</button>	
+    </main>
+</body>
+</html>
